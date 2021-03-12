@@ -12,7 +12,6 @@
   width: 100%;
   color: white;
   font-size: 16px;
-  top: 0;
 }
  .nav-bar ul {
   list-style: none;
@@ -98,41 +97,4 @@
 footer {
   text-align: center;
   margin: 100px auto 50px;
-}
-
-
-
-/* _____GALLERY_____ */
-
-.gallery-container {
-  margin: 20px 0;
-  display: flex;             
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.gallery-container .image {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  border-radius: 15px;
-  box-shadow: 4px 4px 5px rgba(0,0,0,.25);
-  overflow: hidden;
-}
-
-.gallery-container .image
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  outline: noine;
-  border: none;
-  cursor: pointer;
-  transition: all .2 ease;
-}
-
-.gallery-container .image
-img:hover {
-  transform: scale(1.2);
 }
