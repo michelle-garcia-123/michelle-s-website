@@ -50,9 +50,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  
 }
-
+.projects-hero {
+  height: 80vh;
+  background: linear-gradient(#FCD1D140,#FCD1D160), url(https://www.zingerbug.com/Backgrounds/background_images/rainbow_smiley_faces_on_white_background_seamless.jpg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
 .hero-content {
   width: 80%;
   margin: 0 auto;
