@@ -97,7 +97,7 @@
 .game {
   width: 100%;
 }
-.text p {
+.container p {
   margin-top: 20px;
   line-height: 40px;
   text-indent: 50px;
