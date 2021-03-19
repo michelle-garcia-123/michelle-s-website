@@ -94,8 +94,10 @@
 .container h1, .container h3 {
   text-align: center;
 }
-
-.container p {
+.game {
+  width: 100%;
+}
+.text p {
   margin-top: 20px;
   line-height: 40px;
   text-indent: 50px;
@@ -132,7 +134,7 @@ img {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  outline: noine;
+  outline: none;
   border: none;
   cursor: pointer;
   transition: all .2 ease;
